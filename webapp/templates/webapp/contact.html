@@ -1,0 +1,37 @@
+{% load staticfiles %}
+{% block text %}
+
+    <!doctype html>
+    <html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="{% static 'webapp/style9.css' %}">
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Contact</title>
+        <style type="text/css">
+            body{
+                margin: 0;
+                padding: 0;
+            }
+            .text {
+                height: 100%;
+                width: 200vh;
+                right: 10vw;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                font-size: 3vw;
+                font-family: sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+    <div class="text">
+        Vikash Baajiya<br/>Address:Near NH-52 Toll Tax, Bypass,Rings(Seeker)<br/>Phone No. +919269169960,+919554500444<br/>Webiste -satyamfinance.in.net<br/>Email-satyamfinancer@gmail.com
+    </div>
+    </body>
+    </html>
+{% endblock text %}

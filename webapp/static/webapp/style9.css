@@ -1,0 +1,8 @@
+body {
+    background-image:  url("images/city.jpg");
+    background-size: cover;
+    height: 40%;
+    width: 100%;
+    min-height: 700px;
+    margin-top: 20px;
+}

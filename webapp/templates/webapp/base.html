@@ -1,0 +1,39 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Satyam Project</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'webapp/styles7.css' %}">
+</head>
+<body>
+{% block text %}
+{% endblock text %}
+<div class="container">
+  <nav>
+    <ul>
+      <a href="{% url 'home' %}"><li>Home</li></a>
+      <li>Services
+        <ul class="sub-nav">
+          <a href="{% url 'businessloan' %}"><li>Business Loan</li></a>
+          <a href="{% url 'homeloan' %}"><li>Home Loan</li></a>
+          <a href="{% url 'personalloan' %}"><li>Personal Loan</li></a>
+          <a href="{% url 'property' %}"><li>Property Loan</li></a>
+          <a href="{% url 'vehicle' %}"><li>Vehicle Loan</li></a>
+        </ul>
+      </li>
+        <a href="{% url 'contact' %}"><li>Contact Us</li></a>
+          <li>About Us
+        </li>
+    </ul>
+  </nav>
+</div>
+  <div class="header"></div>
+    <main>
+    </main>
+    <footer class="blog-footer container fixed-bottom mx-auto">
+      <div class="float-left">Powered by  <a href="http://www.cscconsulting.in/">cscconsulting.in</a></div>
+  </footer>
+</div>
+</body>
+</html>
